@@ -705,6 +705,14 @@
             "icon": null
           },
           {
+            "name": "CapsuleCollider",
+            "scenes": [
+              "Assets/ExampleAssets/Scenes/SampleScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Collider",
             "scenes": [],
             "dependencyType": 1,
