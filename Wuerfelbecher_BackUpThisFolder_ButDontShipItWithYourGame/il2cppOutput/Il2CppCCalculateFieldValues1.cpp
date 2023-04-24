@@ -11437,7 +11437,7 @@ struct OpenXRRestarter_t59BB3482FA6ED413E66F91ABE39820D83AAE8AA1  : public MonoB
 };
 struct PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___moveobj;
 	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___ARRaycastManager;
 	ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ___ARPlaneManager;
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___hits;
@@ -17974,7 +17974,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5052[6] =
 	static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheringWidth)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_FeatheringUVs)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_Vertices)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_PlaneMeshVisualizer)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_Plane)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheredPlaneMaterial)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5053[4] = 
 {
-	static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___prefab)),static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___ARRaycastManager)),static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___ARPlaneManager)),static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___hits)),};
+	static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___moveobj)),static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___ARRaycastManager)),static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___ARPlaneManager)),static_cast<int32_t>(offsetof(PlaceFunnel_tF5EC355958427068F892A8B996A1E7066350892D, ___hits)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5054[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

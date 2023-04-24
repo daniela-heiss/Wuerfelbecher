@@ -6,9 +6,7 @@ using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
 public class PlaceFunnel : MonoBehaviour
 {
-        [SerializeField]
-        private GameObject prefab;
-
+        public GameObject moveobj;
         private ARRaycastManager ARRaycastManager;
         private ARPlaneManager ARPlaneManager;
         private List<ARRaycastHit> hits = new List<ARRaycastHit>();
@@ -33,7 +31,7 @@ public class PlaceFunnel : MonoBehaviour
 
                 if (ARRaycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon)){
                         Pose pose = hits[0].pose;
-                        GameObject obj = Instantiate(prefab, pose.position, pose.rotation);
+                        moveobj.transform.position = new Vector3(pose.position.x, pose.position.y, pose.position.z);
                 }
 
         }
