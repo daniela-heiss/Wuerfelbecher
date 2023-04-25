@@ -308,7 +308,9 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -372,7 +374,9 @@
           },
           {
             "name": "Sprite",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -432,10 +436,8 @@
           },
           {
             "name": "Transform",
-            "scenes": [
-              "Assets/Scenes/Wuerfelbecher.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -741,6 +743,14 @@
             "icon": null
           },
           {
+            "name": "SphereCollider",
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Required by VR Module",
             "scenes": [],
             "dependencyType": 2,
@@ -992,7 +1002,9 @@
         "dependencies": [
           {
             "name": "Font",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1033,7 +1045,9 @@
         "dependencies": [
           {
             "name": "Canvas",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1045,7 +1059,9 @@
           },
           {
             "name": "CanvasRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

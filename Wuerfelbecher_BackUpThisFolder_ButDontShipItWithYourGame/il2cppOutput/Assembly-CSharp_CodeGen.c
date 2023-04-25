@@ -33,9 +33,11 @@ extern void PlaceFunnel_OnEnable_mDFAF503DC6E9D9B5142AE5A4013C7BDBD1344C08 (void
 extern void PlaceFunnel_OnDisable_mEED1E4AFF0E5064BE04B8F65895EAF543675F2B7 (void);
 extern void PlaceFunnel_FingerDown_mB5484ADDAF2D5B8E48C9B189FA181456C57C31C8 (void);
 extern void PlaceFunnel__ctor_m2EF1F1A06257E879F0974391F23B541781149129 (void);
+extern void Spawndice_Click_m54FAECB5FAE04EE2AE1E68A5240ECDB2BF6B6452 (void);
+extern void Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+static Il2CppMethodPointer s_methodPointers[25] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -58,40 +60,44 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	PlaceFunnel_OnDisable_mEED1E4AFF0E5064BE04B8F65895EAF543675F2B7,
 	PlaceFunnel_FingerDown_mB5484ADDAF2D5B8E48C9B189FA181456C57C31C8,
 	PlaceFunnel__ctor_m2EF1F1A06257E879F0974391F23B541781149129,
+	Spawndice_Click_m54FAECB5FAE04EE2AE1E68A5240ECDB2BF6B6452,
+	Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[25] = 
 {
-	6120,
-	4887,
-	6220,
-	6220,
-	6220,
-	6220,
-	9556,
-	6162,
-	4920,
-	6220,
-	6220,
-	6220,
-	4763,
-	4887,
-	6220,
-	9556,
-	6220,
-	6220,
-	6220,
-	4887,
-	6220,
-	9576,
-	6220,
+	6355,
+	5075,
+	6466,
+	6466,
+	6466,
+	6466,
+	9841,
+	6398,
+	5109,
+	6466,
+	6466,
+	6466,
+	4943,
+	5075,
+	6466,
+	9841,
+	6466,
+	6466,
+	6466,
+	5075,
+	6466,
+	6466,
+	6466,
+	9861,
+	6466,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	25,
 	s_methodPointers,
 	0,
 	NULL,
