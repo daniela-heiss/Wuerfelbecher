@@ -743,14 +743,6 @@
             "icon": null
           },
           {
-            "name": "SphereCollider",
-            "scenes": [
-              "Assets/Scenes/Wuerfelbecher.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Required by VR Module",
             "scenes": [],
             "dependencyType": 2,

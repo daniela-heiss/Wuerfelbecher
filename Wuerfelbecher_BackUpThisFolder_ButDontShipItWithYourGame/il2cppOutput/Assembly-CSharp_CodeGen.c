@@ -28,6 +28,9 @@ extern void ARFeatheredPlaneMeshVisualizer_ARPlane_boundaryUpdated_mB3D9BBD14EA1
 extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5 (void);
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3 (void);
+extern void DetachBox_OnTriggerExit_m26DF52BB69FA7D1839459D80CFBFF851F6F19F46 (void);
+extern void DetachBox__ctor_m494776F0A9774414D89E7A89C22EBF8679E9F090 (void);
+extern void PlaceFunnel_Click_mC436FAA45398648C61D6398EE600905951261689 (void);
 extern void PlaceFunnel_Awake_m59BC7E47D6BD98EB09ED9680F4C59C32F07FC9B3 (void);
 extern void PlaceFunnel_OnEnable_mDFAF503DC6E9D9B5142AE5A4013C7BDBD1344C08 (void);
 extern void PlaceFunnel_OnDisable_mEED1E4AFF0E5064BE04B8F65895EAF543675F2B7 (void);
@@ -37,7 +40,7 @@ extern void Spawndice_Click_m54FAECB5FAE04EE2AE1E68A5240ECDB2BF6B6452 (void);
 extern void Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[25] = 
+static Il2CppMethodPointer s_methodPointers[28] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -55,6 +58,9 @@ static Il2CppMethodPointer s_methodPointers[25] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
+	DetachBox_OnTriggerExit_m26DF52BB69FA7D1839459D80CFBFF851F6F19F46,
+	DetachBox__ctor_m494776F0A9774414D89E7A89C22EBF8679E9F090,
+	PlaceFunnel_Click_mC436FAA45398648C61D6398EE600905951261689,
 	PlaceFunnel_Awake_m59BC7E47D6BD98EB09ED9680F4C59C32F07FC9B3,
 	PlaceFunnel_OnEnable_mDFAF503DC6E9D9B5142AE5A4013C7BDBD1344C08,
 	PlaceFunnel_OnDisable_mEED1E4AFF0E5064BE04B8F65895EAF543675F2B7,
@@ -65,7 +71,7 @@ static Il2CppMethodPointer s_methodPointers[25] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[25] = 
+static const int32_t s_InvokerIndices[28] = 
 {
 	6355,
 	5075,
@@ -83,6 +89,9 @@ static const int32_t s_InvokerIndices[25] =
 	5075,
 	6466,
 	9841,
+	5075,
+	6466,
+	6466,
 	6466,
 	6466,
 	6466,
@@ -97,7 +106,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	25,
+	28,
 	s_methodPointers,
 	0,
 	NULL,
