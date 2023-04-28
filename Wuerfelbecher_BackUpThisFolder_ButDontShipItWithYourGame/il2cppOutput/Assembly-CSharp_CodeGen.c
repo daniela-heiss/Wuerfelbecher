@@ -30,6 +30,11 @@ extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B
 extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3 (void);
 extern void DetachBox_OnTriggerExit_m26DF52BB69FA7D1839459D80CFBFF851F6F19F46 (void);
 extern void DetachBox__ctor_m494776F0A9774414D89E7A89C22EBF8679E9F090 (void);
+extern void MovementDiceMenu_Start_m880FA4E0669DF9CFD8196CD9FB9381CABF9BEAEA (void);
+extern void MovementDiceMenu_Update_mFD9F6204CD42F0ABDDD70F4949B4BE4405764707 (void);
+extern void MovementDiceMenu_movePanel_m23536D5EFDC136368A10BE43522435E9197E5C90 (void);
+extern void MovementDiceMenu_movePanelBack_mDF0365D86B23F651E1844E988F76322E27F5309E (void);
+extern void MovementDiceMenu__ctor_mD4F9EB14708E4558BDF96F587933961A0AC140F0 (void);
 extern void PlaceFunnel_Click_mC436FAA45398648C61D6398EE600905951261689 (void);
 extern void PlaceFunnel_Awake_m59BC7E47D6BD98EB09ED9680F4C59C32F07FC9B3 (void);
 extern void PlaceFunnel_OnEnable_mDFAF503DC6E9D9B5142AE5A4013C7BDBD1344C08 (void);
@@ -40,7 +45,7 @@ extern void Spawndice_Click_m54FAECB5FAE04EE2AE1E68A5240ECDB2BF6B6452 (void);
 extern void Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[28] = 
+static Il2CppMethodPointer s_methodPointers[33] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -60,6 +65,11 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
 	DetachBox_OnTriggerExit_m26DF52BB69FA7D1839459D80CFBFF851F6F19F46,
 	DetachBox__ctor_m494776F0A9774414D89E7A89C22EBF8679E9F090,
+	MovementDiceMenu_Start_m880FA4E0669DF9CFD8196CD9FB9381CABF9BEAEA,
+	MovementDiceMenu_Update_mFD9F6204CD42F0ABDDD70F4949B4BE4405764707,
+	MovementDiceMenu_movePanel_m23536D5EFDC136368A10BE43522435E9197E5C90,
+	MovementDiceMenu_movePanelBack_mDF0365D86B23F651E1844E988F76322E27F5309E,
+	MovementDiceMenu__ctor_mD4F9EB14708E4558BDF96F587933961A0AC140F0,
 	PlaceFunnel_Click_mC436FAA45398648C61D6398EE600905951261689,
 	PlaceFunnel_Awake_m59BC7E47D6BD98EB09ED9680F4C59C32F07FC9B3,
 	PlaceFunnel_OnEnable_mDFAF503DC6E9D9B5142AE5A4013C7BDBD1344C08,
@@ -71,7 +81,7 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[28] = 
+static const int32_t s_InvokerIndices[33] = 
 {
 	6355,
 	5075,
@@ -95,6 +105,11 @@ static const int32_t s_InvokerIndices[28] =
 	6466,
 	6466,
 	6466,
+	6466,
+	6466,
+	6466,
+	6466,
+	6466,
 	5075,
 	6466,
 	6466,
@@ -106,7 +121,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	28,
+	33,
 	s_methodPointers,
 	0,
 	NULL,
