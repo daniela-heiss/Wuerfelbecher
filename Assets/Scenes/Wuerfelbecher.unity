@@ -1118,7 +1118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 8861445736603868693, guid: 323ad72a02b2aa14793bd54598a9a0b7, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &546806657
 MonoBehaviour:
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 5494852030367154740, guid: cb8076a6353dbff47ae61f8c23be44f9, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &868308286
 MonoBehaviour:
@@ -1712,7 +1712,6 @@ GameObject:
   - component: {fileID: 945037829}
   - component: {fileID: 945037828}
   - component: {fileID: 945037827}
-  - component: {fileID: 945037826}
   m_Layer: 5
   m_Name: OpenDiceMenuButton
   m_TagString: Untagged
@@ -1741,20 +1740,6 @@ RectTransform:
   m_AnchoredPosition: {x: 985.0999, y: -2145.8699}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &945037826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945037824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
-  Point: {fileID: 1373156276}
 --- !u!114 &945037827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1902,7 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 5660173184327804663, guid: a5a14b5174d93fb45b654deadf2f168c, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &997868947
 MonoBehaviour:
@@ -2133,112 +2118,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028541877}
   m_CullTransparentMesh: 1
---- !u!1 &1077557758
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1077557759}
-  - component: {fileID: 1077557762}
-  - component: {fileID: 1077557761}
-  - component: {fileID: 1077557760}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1077557759
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077557758}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0803}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 582038142}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!64 &1077557760
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077557758}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1077557761
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077557758}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1077557762
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077557758}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1077654871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,7 +2441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 5195582487197422319, guid: 5896bd63d4295d14c991ca71cfc73499, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &1242384489
 MonoBehaviour:
@@ -3044,7 +2923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 6187163743563750352, guid: f67b05a7927f8204b8503af398fc209a, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &1459949651
 MonoBehaviour:
@@ -3193,7 +3072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 4953919203802508377, guid: e744f305840cead42a237aa20481d1d8, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &1627576015
 MonoBehaviour:
@@ -3621,7 +3500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c898dc74975b245995780f73bd4d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice: {fileID: 603224780935541418, guid: 4b693e59ef645a94096c0e9d8fa7ae8a, type: 3}
+  Dice: {fileID: 8328437242619259964, guid: 4e8e99f7073eee1469d82cc1c8723058, type: 3}
   Point: {fileID: 1373156276}
 --- !u!114 &1954259334
 MonoBehaviour:
@@ -4358,10 +4237,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78add094471e9de4a8b8c7137edc2d36,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1077557759}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78add094471e9de4a8b8c7137edc2d36,
         type: 3}
       insertIndex: -1
