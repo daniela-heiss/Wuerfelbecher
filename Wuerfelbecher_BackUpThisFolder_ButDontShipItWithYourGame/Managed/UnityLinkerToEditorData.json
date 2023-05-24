@@ -729,6 +729,14 @@
             "icon": null
           },
           {
+            "name": "PhysicMaterial",
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
