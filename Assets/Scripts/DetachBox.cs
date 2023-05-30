@@ -7,6 +7,7 @@ public class DetachBox : MonoBehaviour
    void OnTriggerExit (Collider other){
         //Debug.Log("Dice fell out");
         other.transform.parent = null;
+        PhysicsController.ShakingRigidbodies.Remove(other.attachedRigidbody);
    }
 
    void OnTriggerEnter(Collider other)

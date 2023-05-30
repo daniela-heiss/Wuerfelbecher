@@ -34,6 +34,8 @@ extern void DetachBox__ctor_m494776F0A9774414D89E7A89C22EBF8679E9F090 (void);
 extern void NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87 (void);
 extern void NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B (void);
 extern void NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C (void);
+extern void KillDice_Kill_m70E00B91A7074B2C2BEFC955E887A514580BC5CF (void);
+extern void KillDice__ctor_m57FDD0E5B54D08C5829FD400A6E0A1BF05CF7D6C (void);
 extern void LidSpawn_Start_mFD0AA8E894813CA168D37FBA079C46CF8D9B85D5 (void);
 extern void LidSpawn_Update_mC91CA0C5C95CEC76FB7776167509E46B9EE5F304 (void);
 extern void LidSpawn__ctor_mA317754136678B820F2ECADF8E783B49B9E0E1DD (void);
@@ -56,9 +58,10 @@ extern void ShakeDetector_Update_m0EA06A2E39E72B57E09D3D7DE1BE522151863AD9 (void
 extern void ShakeDetector__ctor_mBB31585D2C839C11A6FEFB2EAB7B78C14F572CF6 (void);
 extern void Spawndice_Click_m54FAECB5FAE04EE2AE1E68A5240ECDB2BF6B6452 (void);
 extern void Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F (void);
+extern void Spawndice__cctor_m2213BB26BC19763298DBCD07492CE038743F6585 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[46] = 
+static Il2CppMethodPointer s_methodPointers[49] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -82,6 +85,8 @@ static Il2CppMethodPointer s_methodPointers[46] =
 	NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87,
 	NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B,
 	NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C,
+	KillDice_Kill_m70E00B91A7074B2C2BEFC955E887A514580BC5CF,
+	KillDice__ctor_m57FDD0E5B54D08C5829FD400A6E0A1BF05CF7D6C,
 	LidSpawn_Start_mFD0AA8E894813CA168D37FBA079C46CF8D9B85D5,
 	LidSpawn_Update_mC91CA0C5C95CEC76FB7776167509E46B9EE5F304,
 	LidSpawn__ctor_mA317754136678B820F2ECADF8E783B49B9E0E1DD,
@@ -104,10 +109,11 @@ static Il2CppMethodPointer s_methodPointers[46] =
 	ShakeDetector__ctor_mBB31585D2C839C11A6FEFB2EAB7B78C14F572CF6,
 	Spawndice_Click_m54FAECB5FAE04EE2AE1E68A5240ECDB2BF6B6452,
 	Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F,
+	Spawndice__cctor_m2213BB26BC19763298DBCD07492CE038743F6585,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[46] = 
+static const int32_t s_InvokerIndices[49] = 
 {
 	6356,
 	5076,
@@ -139,6 +145,8 @@ static const int32_t s_InvokerIndices[46] =
 	6467,
 	6467,
 	6467,
+	6467,
+	6467,
 	5163,
 	6467,
 	9842,
@@ -153,6 +161,7 @@ static const int32_t s_InvokerIndices[46] =
 	6467,
 	6467,
 	6467,
+	9842,
 	9862,
 	6467,
 };
@@ -160,7 +169,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	46,
+	49,
 	s_methodPointers,
 	0,
 	NULL,

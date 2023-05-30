@@ -623,6 +623,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677315450072829694, guid: 3738bd65ede154463b2c35064b9e5fdb,
         type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: d32986886347f6e49867e6310993df74,
+        type: 2}
+    - target: {fileID: 3677315450072829694, guid: 3738bd65ede154463b2c35064b9e5fdb,
+        type: 3}
       propertyPath: m_IncludeLayers.m_Bits
       value: 8
       objectReference: {fileID: 0}
@@ -929,7 +935,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1897.9, y: -406.88}
+  m_AnchoredPosition: {x: 1897.8999, y: -406.88037}
   m_SizeDelta: {x: -1004.2, y: -813.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &475949572
@@ -945,12 +951,12 @@ GameObject:
   - component: {fileID: 475949575}
   - component: {fileID: 475949574}
   m_Layer: 5
-  m_Name: conetoggle
+  m_Name: ResetButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &475949573
 RectTransform:
   m_ObjectHideFlags: 0
@@ -969,7 +975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -847, y: -1963.8}
+  m_AnchoredPosition: {x: -899, y: -2090}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &475949574
@@ -1016,9 +1022,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1721214366}
-        m_TargetAssemblyTypeName: PlaceFunnel, Assembly-CSharp
-        m_MethodName: Click
+      - m_Target: {fileID: 677129318}
+        m_TargetAssemblyTypeName: KillDice, Assembly-CSharp
+        m_MethodName: Kill
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1296,7 +1302,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1897.9, y: -406.88}
+  m_AnchoredPosition: {x: 1897.8999, y: -406.88037}
   m_SizeDelta: {x: -1004.2, y: -813.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &582038141 stripped
@@ -1346,6 +1352,7 @@ GameObject:
   - component: {fileID: 677129314}
   - component: {fileID: 677129313}
   - component: {fileID: 677129317}
+  - component: {fileID: 677129318}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1458,6 +1465,18 @@ MonoBehaviour:
   MenuPanel: {fileID: 565427522}
   InvisibleMoveMenuButton: {fileID: 945037824}
   moveSpeed: 2
+--- !u!114 &677129318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677129312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b3cb560e22a2b4da47ead969703d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,7 +1750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8203c401819bb0448d9b852cd922edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShakeDetectionTreshold: 3.6
+  ShakeDetectionTreshold: 1.5
   MinShakeInterval: 0.2
 --- !u!114 &902821234
 MonoBehaviour:
@@ -1745,7 +1764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2a4d257b96a13498bb6e9265d0e2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShakeForceMultiplier: 5
+  ShakeForceMultiplier: 1.5
 --- !u!4 &902821235
 Transform:
   m_ObjectHideFlags: 0
@@ -3519,7 +3538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 502.1, y: -406.88}
+  m_AnchoredPosition: {x: 502.1001, y: -406.88037}
   m_SizeDelta: {x: -1004.2, y: -813.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1954259331
