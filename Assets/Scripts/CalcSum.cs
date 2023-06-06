@@ -10,7 +10,7 @@ public class CalcSum : MonoBehaviour
 
     private void Start() {
         sum = 0;
-        InvokeRepeating("calcSum", 0.0f, 0.5f);
+        InvokeRepeating("calcSum", 0.0f, 1f);
     }
     void calcSum(){
         sum = 0;

@@ -40,6 +40,8 @@ extern void DiceCalc_d6Calc_m6231AE468FDB385A813BC8920C3754342E58E15E (void);
 extern void DiceCalc_d8Calc_m0A75916C70055AB43B35405C765287B9737DE3C2 (void);
 extern void DiceCalc_d101Calc_mD282474847EBDA9F86AC1AB2D0E551FE097C742C (void);
 extern void DiceCalc_d102Calc_m7AF9AF0399A1267B4EB1A86B779EC02D12C296B8 (void);
+extern void DiceCalc_d12Calc_mFB3E60B7BCA7179AF431AB55B282BCEA2BD9D127 (void);
+extern void DiceCalc_d20Calc_mBB40CE0BA4AF67CECE2F051984AF4C740704F257 (void);
 extern void DiceCalc_findUpperVal_m6D61253AAB0AB2CD808F1305B93740278014BC2F (void);
 extern void DiceCalc__ctor_m4CB78BA696EBA472527DF86614889A649273F764 (void);
 extern void KillDice_Kill_m70E00B91A7074B2C2BEFC955E887A514580BC5CF (void);
@@ -70,7 +72,7 @@ extern void Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F (void);
 extern void Spawndice__cctor_m2213BB26BC19763298DBCD07492CE038743F6585 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[58] = 
+static Il2CppMethodPointer s_methodPointers[60] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -100,6 +102,8 @@ static Il2CppMethodPointer s_methodPointers[58] =
 	DiceCalc_d8Calc_m0A75916C70055AB43B35405C765287B9737DE3C2,
 	DiceCalc_d101Calc_mD282474847EBDA9F86AC1AB2D0E551FE097C742C,
 	DiceCalc_d102Calc_m7AF9AF0399A1267B4EB1A86B779EC02D12C296B8,
+	DiceCalc_d12Calc_mFB3E60B7BCA7179AF431AB55B282BCEA2BD9D127,
+	DiceCalc_d20Calc_mBB40CE0BA4AF67CECE2F051984AF4C740704F257,
 	DiceCalc_findUpperVal_m6D61253AAB0AB2CD808F1305B93740278014BC2F,
 	DiceCalc__ctor_m4CB78BA696EBA472527DF86614889A649273F764,
 	KillDice_Kill_m70E00B91A7074B2C2BEFC955E887A514580BC5CF,
@@ -131,7 +135,7 @@ static Il2CppMethodPointer s_methodPointers[58] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[58] = 
+static const int32_t s_InvokerIndices[60] = 
 {
 	6356,
 	5076,
@@ -174,6 +178,8 @@ static const int32_t s_InvokerIndices[58] =
 	6467,
 	6467,
 	6467,
+	6467,
+	6467,
 	5163,
 	6467,
 	9842,
@@ -196,7 +202,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	58,
+	60,
 	s_methodPointers,
 	0,
 	NULL,
