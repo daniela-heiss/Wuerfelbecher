@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3209715334816671204}
   - component: {fileID: 7254553244459430197}
   - component: {fileID: 4022059485284717945}
+  - component: {fileID: 72912961186884028}
   m_Layer: 0
   m_Name: d6
   m_TagString: Untagged
@@ -133,3 +134,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.04, y: 0.04, z: 0.04}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &72912961186884028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187163743563750352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9587bf42aca0e14b8523e4b25aa795a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diceType: 6

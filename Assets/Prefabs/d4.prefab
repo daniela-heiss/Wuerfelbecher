@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3639320458908698502}
   - component: {fileID: 4435773550726743323}
   - component: {fileID: 1003974097982771615}
+  - component: {fileID: 8127678673662159041}
   m_Layer: 0
   m_Name: d4
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6897289551539280702
 MeshFilter:
@@ -134,3 +135,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &8127678673662159041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5195582487197422319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9587bf42aca0e14b8523e4b25aa795a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diceType: 4
