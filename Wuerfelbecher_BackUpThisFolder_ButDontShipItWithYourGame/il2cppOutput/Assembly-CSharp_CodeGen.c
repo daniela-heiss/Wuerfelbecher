@@ -47,6 +47,8 @@ extern void DiceCalc__ctor_m4CB78BA696EBA472527DF86614889A649273F764 (void);
 extern void KillDice_Kill_m70E00B91A7074B2C2BEFC955E887A514580BC5CF (void);
 extern void KillDice_Undo_m4947909926DC070A0FAF5F54B31508FB45E0FB7D (void);
 extern void KillDice__ctor_m57FDD0E5B54D08C5829FD400A6E0A1BF05CF7D6C (void);
+extern void KillPlane_OnTriggerEnter_m92D87AA2F66580E63AE5476869EA1B4A92F39D97 (void);
+extern void KillPlane__ctor_m525ED06A9BA2DF9CF57FC5805A5CA846ABF4AD0F (void);
 extern void LidSpawn_Start_mFD0AA8E894813CA168D37FBA079C46CF8D9B85D5 (void);
 extern void LidSpawn_Update_mC91CA0C5C95CEC76FB7776167509E46B9EE5F304 (void);
 extern void LidSpawn__ctor_mA317754136678B820F2ECADF8E783B49B9E0E1DD (void);
@@ -72,7 +74,7 @@ extern void Spawndice__ctor_mB399660E4C8EC4B4109BB3111A9D1089D686256F (void);
 extern void Spawndice__cctor_m2213BB26BC19763298DBCD07492CE038743F6585 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[60] = 
+static Il2CppMethodPointer s_methodPointers[62] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -109,6 +111,8 @@ static Il2CppMethodPointer s_methodPointers[60] =
 	KillDice_Kill_m70E00B91A7074B2C2BEFC955E887A514580BC5CF,
 	KillDice_Undo_m4947909926DC070A0FAF5F54B31508FB45E0FB7D,
 	KillDice__ctor_m57FDD0E5B54D08C5829FD400A6E0A1BF05CF7D6C,
+	KillPlane_OnTriggerEnter_m92D87AA2F66580E63AE5476869EA1B4A92F39D97,
+	KillPlane__ctor_m525ED06A9BA2DF9CF57FC5805A5CA846ABF4AD0F,
 	LidSpawn_Start_mFD0AA8E894813CA168D37FBA079C46CF8D9B85D5,
 	LidSpawn_Update_mC91CA0C5C95CEC76FB7776167509E46B9EE5F304,
 	LidSpawn__ctor_mA317754136678B820F2ECADF8E783B49B9E0E1DD,
@@ -135,7 +139,7 @@ static Il2CppMethodPointer s_methodPointers[60] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[60] = 
+static const int32_t s_InvokerIndices[62] = 
 {
 	6356,
 	5076,
@@ -172,6 +176,8 @@ static const int32_t s_InvokerIndices[60] =
 	6467,
 	6467,
 	6467,
+	5076,
+	6467,
 	6467,
 	6467,
 	6467,
@@ -202,7 +208,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	60,
+	62,
 	s_methodPointers,
 	0,
 	NULL,
