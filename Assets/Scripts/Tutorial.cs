@@ -12,9 +12,12 @@ public class Tutorial : MonoBehaviour
     public GameObject KillButton;
     public GameObject PlaneDetection;
     public GameObject Sum;
+    public GameObject SumBG;
     public GameObject TutorialBG;
+    public GameObject TutorialButton;
+    public static bool TutorialFinished;
 
-    void Start()
+    void OnEnable()
     {
         popUpIndex = 0;
         TutorialBG.SetActive(true);
@@ -24,6 +27,8 @@ public class Tutorial : MonoBehaviour
         KillButton.SetActive(false);
         PlaneDetection.SetActive(false);
         Sum.SetActive(false);
+        SumBG.SetActive(false);
+        TutorialButton.SetActive(false);
     }
     void Update()
     {
@@ -65,16 +70,15 @@ public class Tutorial : MonoBehaviour
                         break;
                     case 6:
                         Sum.SetActive(true);
+                        SumBG.SetActive(true);
                         popUpIndex++;
                         break;
                     case 7:
                         TutorialBG.SetActive(false);
+                        TutorialButton.SetActive(true);
                         popUpIndex++;
+                        TutorialFinished = true;
                         break;
-            //case 8:
-              //  TutorialBG.SetActive(false);
-               // popUpIndex++;
-                //break; 
         }
             }
         }

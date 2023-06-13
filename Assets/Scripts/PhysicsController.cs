@@ -13,7 +13,6 @@ public class PhysicsController : MonoBehaviour
     {
         foreach(var rigidbody in ShakingRigidbodies)
         {
-            Debug.Log("Hello");
             rigidbody.AddForce(deviceAcceleration * ShakeForceMultiplier, ForceMode.Impulse);
         }    
     

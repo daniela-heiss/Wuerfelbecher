@@ -388,7 +388,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
