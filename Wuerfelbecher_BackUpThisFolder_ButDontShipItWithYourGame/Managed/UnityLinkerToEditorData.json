@@ -210,7 +210,9 @@
           },
           {
             "name": "LineRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -702,14 +704,6 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [
-              "Assets/Scenes/Wuerfelbecher.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "CapsuleCollider",
             "scenes": [
               "Assets/Scenes/Wuerfelbecher.unity"
             ],

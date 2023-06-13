@@ -10,7 +10,6 @@ public class Tutorial : MonoBehaviour
     public GameObject DiceBagButton;
     public GameObject RevertButton;
     public GameObject KillButton;
-    public GameObject PlaneDetection;
     public GameObject Sum;
     public GameObject SumBG;
     public GameObject TutorialBG;
@@ -25,7 +24,6 @@ public class Tutorial : MonoBehaviour
         DiceBagButton.SetActive(false);
         RevertButton.SetActive(false);
         KillButton.SetActive(false);
-        PlaneDetection.SetActive(false);
         Sum.SetActive(false);
         SumBG.SetActive(false);
         TutorialButton.SetActive(false);
@@ -59,7 +57,6 @@ public class Tutorial : MonoBehaviour
                         popUpIndex++;
                         break;
                     case 3:
-                        PlaneDetection.SetActive(true);
                         popUpIndex++;
                         break;
                     case 4: 

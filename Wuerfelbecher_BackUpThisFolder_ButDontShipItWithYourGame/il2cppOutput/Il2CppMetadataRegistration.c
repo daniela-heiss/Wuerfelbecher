@@ -22,19 +22,19 @@ IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTabl
 IL2CPP_EXTERN_C const Il2CppMetadataRegistration g_MetadataRegistration;
 const Il2CppMetadataRegistration g_MetadataRegistration = 
 {
-	5432,
+	5431,
 	g_Il2CppGenericTypes,
 	3470,
 	g_Il2CppGenericInstTable,
 	43503,
 	g_Il2CppGenericMethodFunctions,
-	17130,
+	17127,
 	g_Il2CppTypeTable,
 	51642,
 	g_Il2CppMethodSpecTable,
-	5352,
+	5350,
 	g_FieldOffsetTable,
-	5352,
+	5350,
 	g_Il2CppTypeDefinitionSizesTable,
 	0,
 	NULL,
