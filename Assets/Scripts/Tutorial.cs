@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 public class Tutorial : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class Tutorial : MonoBehaviour
     public GameObject DiceBagButton;
     public GameObject RevertButton;
     public GameObject KillButton;
+    
     public GameObject Sum;
     public GameObject SumBG;
     public GameObject TutorialBG;
@@ -27,7 +30,14 @@ public class Tutorial : MonoBehaviour
         Sum.SetActive(false);
         SumBG.SetActive(false);
         TutorialButton.SetActive(false);
+
+        GameObject.Find("XR Origin").GetComponent<ARPlaneManager>().enabled = false;
+        foreach(var plane in GameObject.Find("XR Origin").GetComponent<ARPlaneManager>().trackables)
+        {
+            plane.gameObject.SetActive(false);
+        }
     }
+
     void Update()
     {
         for (int i = 0; i < popUps.Length; i++) {
@@ -73,6 +83,7 @@ public class Tutorial : MonoBehaviour
                     case 7:
                         TutorialBG.SetActive(false);
                         TutorialButton.SetActive(true);
+                        GameObject.Find("XR Origin").GetComponent<ARPlaneManager>().enabled = true;
                         popUpIndex++;
                         TutorialFinished = true;
                         break;
