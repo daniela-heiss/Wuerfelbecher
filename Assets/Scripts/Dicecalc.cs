@@ -5,12 +5,10 @@ using UnityEngine;
 public class DiceCalc : MonoBehaviour
 {
     public int diceType;
-    //public static bool startCalc;
     public int upperVal;
     
     void Start()
     {
-        //startCalc = false;
         upperVal = 0;
     }
 
@@ -47,7 +45,7 @@ public class DiceCalc : MonoBehaviour
         } else if (350 < this.transform.eulerAngles.z || this.transform.eulerAngles.z < 10){
             if(this.transform.eulerAngles.x > 80 && this.transform.eulerAngles.x < 100){
                 upperVal = 2;
-            } else if (this.transform.eulerAngles.z > 260 && this.transform.eulerAngles.z < 280){
+            } else if (this.transform.eulerAngles.x > 260 && this.transform.eulerAngles.x < 280){
                 upperVal = 5;
             }
         } else {
@@ -186,7 +184,7 @@ public class DiceCalc : MonoBehaviour
             } else if (this.transform.eulerAngles.x > 287 && this.transform.eulerAngles.x < 307){
                 upperVal = 10;
             }
-        } else if (this.transform.eulerAngles.x > 170 && this.transform.eulerAngles.x < 190){
+        } else if (this.transform.eulerAngles.z > 170 && this.transform.eulerAngles.z < 190){
             if(350 < this.transform.eulerAngles.x || this.transform.eulerAngles.x < 10){
                 upperVal = 7;
             } else if (this.transform.eulerAngles.x > 53 && this.transform.eulerAngles.x < 73){
