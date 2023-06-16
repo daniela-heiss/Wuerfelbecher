@@ -713,17 +713,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183758674}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.92387956, w: 0.38268343}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100.14401, y: 100.14401, z: 100.14406}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1559512583}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -135}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 527, y: 730}
+  m_AnchoredPosition: {x: 62, y: 884}
   m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &183758676
@@ -849,8 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Roll your dice by tilting your phone as if it was a dice cup over the created
-    area
+  m_Text: Roll your dice by pouring them out of your phone as if it was a dice cup
 --- !u!222 &207674333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1269,17 +1268,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257773269}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100.14401, y: 100.14401, z: 100.14406}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 943309272}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 756, y: -563}
+  m_AnchoredPosition: {x: 156, y: -761}
   m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &257773271
@@ -2718,7 +2717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The number displayed shows the sum of all of your currently rolled dice
+  m_Text: The number displayed here, shows the sum of the values you've rolled
 --- !u!222 &943309274
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3397,7 +3396,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Here you can delete the latest spawned die
+  m_Text: Here you can delete the latest created die
 --- !u!222 &1120288604
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4566,7 +4565,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Here you can delete all spawned dice at once
+  m_Text: Here you can delete all the created dice at once
 --- !u!222 &1559512585
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4646,11 +4645,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'If you want to shake your dice touch your screen anywhere
+  m_Text: 'If you want to shake your dice, touch your screen anywhere to spawn a
+    lid on top of your cup that lasts as long as you hold the touch
 
 
-    Then a
-    lid will spawn on top of your cup as long as you hold your touch'
+    If the
+    formerly created horizontal area disappears, wait a few seconds before you pour
+    the dice out
+
+'
 --- !u!222 &1603810962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4879,7 +4882,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Move your camera horizontally over your table and an area will spawn
+  m_Text: Move your camera horizontally over your table or any horizontal space and
+    an area will spawn
 --- !u!222 &1705509940
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5732,17 +5736,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031279949}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.92387956, w: 0.38268343}
+  m_LocalPosition: {x: 0, y: 0, z: 8}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1223856849}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -135}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -654, y: 671}
+  m_AnchoredPosition: {x: -231, y: 853}
   m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2031279951
@@ -6573,7 +6577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11, y: -124}
+  m_AnchoredPosition: {x: 11, y: -124.000015}
   m_SizeDelta: {x: 1195, y: 1355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2133602185
@@ -6711,17 +6715,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145700590}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.92387956, w: 0.38268343}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100.14401, y: 100.14401, z: 100.14406}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 100, y: 100.004005, z: 100.004005}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1120288602}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -135}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 988, y: 730}
+  m_AnchoredPosition: {x: 504, y: 883}
   m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2145700592
