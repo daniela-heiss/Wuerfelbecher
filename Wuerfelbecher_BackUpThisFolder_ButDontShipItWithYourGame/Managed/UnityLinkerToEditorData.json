@@ -210,7 +210,9 @@
           },
           {
             "name": "LineRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -388,7 +390,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -707,14 +711,6 @@
             "icon": null
           },
           {
-            "name": "CapsuleCollider",
-            "scenes": [
-              "Assets/Scenes/Wuerfelbecher.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Collider",
             "scenes": [],
             "dependencyType": 1,
@@ -722,6 +718,14 @@
           },
           {
             "name": "MeshCollider",
+            "scenes": [
+              "Assets/Scenes/Wuerfelbecher.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PhysicMaterial",
             "scenes": [
               "Assets/Scenes/Wuerfelbecher.unity"
             ],
